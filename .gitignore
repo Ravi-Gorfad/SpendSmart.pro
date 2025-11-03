@@ -1,0 +1,47 @@
+# Ignore target build directory
+target/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore Maven wrapper files if not needed
+.mvn/
+mvnw
+mvnw.cmd
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore compiled class files
+*.class
+
+# Ignore archives
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Ignore local configuration files
+*.iml
+*.ipr
+*.iws
+
+# Ignore documentation or presentation files if not needed
+*.pptx
+*.docx
+
+# Ignore environment or secret config files
+.env
+application-*.yml
+application-*.properties

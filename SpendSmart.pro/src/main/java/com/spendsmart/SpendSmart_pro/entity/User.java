@@ -45,6 +45,9 @@ public class User {
     @Column(nullable = false, length = 50)
     private String country;
 
+    @Column(nullable = false, name = "email_verified")
+    private Boolean emailVerified = false;
+
     @Column(nullable = false, name = "created_at")
     private LocalDateTime createdAt = LocalDateTime.now();
 
