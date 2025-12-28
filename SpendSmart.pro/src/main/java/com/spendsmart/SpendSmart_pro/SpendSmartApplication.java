@@ -12,7 +12,7 @@ public class SpendSmartApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpendSmartApplication.class, args);
-
+        
 	}
 
 }
